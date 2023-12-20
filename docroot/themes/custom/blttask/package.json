@@ -1,0 +1,32 @@
+{
+  "name": "gulpstarter",
+  "version": "2.2.1",
+  "description": "Gulp starter theme",
+  "main": "gulpfile.js",
+  "scripts": {
+    "setup": "npm install",
+    "postinstall": "find node_modules/ -name '*.info' -type f -delete",
+    "gulp": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dpezer/gulpstarter"
+  },
+  "author": {
+    "name": "Darjan Pezer",
+    "url": "http://pezer.eu"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dpezer/gulpstarter/issues"
+  },
+  "homepage": "https://github.com/dpezer/gulpstarter",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-cache": "^1.0.2",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-concat": "^2.6.1",
+    "jquery": "^3.4.1"
+  }
+}

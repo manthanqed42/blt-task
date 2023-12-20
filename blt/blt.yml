@@ -1,0 +1,9 @@
+project:
+  machine_name: blt-task
+command-hooks:
+ frontend-reqs:
+   dir: ${docroot}/themes/custom/blttask
+   command: 'npm install'
+commands:
+  custom-command:
+    arg: 'default_value'
